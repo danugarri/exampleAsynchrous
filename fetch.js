@@ -2,7 +2,7 @@
 const remoteTest = 'https://danugarri.000webhostapp.com/entorno_cliente/prueba.json';
 const localTest = 'http://localhost/entorno_cliente/ficheroHTML/prueba.json';
 const urlHtml = 'http://localhost/entorno_cliente/ficheroHTML/data.html';
-const test = 'https://github.com/danugarri/exampleAsynchrous/blob/master/data.html'
+const test = 'https://danugarri.000webhostapp.com/proyectos%20web/asynchronous_example/data.html'
 //DOM
 const button = document.getElementById('button');
 //HTTP REQUEST
