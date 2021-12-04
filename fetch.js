@@ -2,7 +2,7 @@
 const remoteTest = 'https://danugarri.000webhostapp.com/entorno_cliente/prueba.json';
 const localTest = 'http://localhost/entorno_cliente/ficheroHTML/prueba.json';
 const urlHtml = 'http://localhost/entorno_cliente/ficheroHTML/data.html';
-const test = 'https://asynchronousexample.netlify.app/data.xml'
+const test = 'https://github.com/danugarri/exampleAsynchrous/blob/master/data.html'
 //DOM
 const button = document.getElementById('button');
 //HTTP REQUEST
