@@ -2,11 +2,12 @@
 const remoteTest = 'https://danugarri.000webhostapp.com/entorno_cliente/prueba.json';
 const localTest = 'http://localhost/entorno_cliente/ficheroHTML/prueba.json';
 const urlHtml = 'http://localhost/entorno_cliente/ficheroHTML/data.html';
+const test = 'https://asynchronousexample.netlify.app/data.xml'
 //DOM
 const button = document.getElementById('button');
 //HTTP REQUEST
  const  makeRequest = () => {
-        fetch(urlHtml,
+        fetch(test,
           {
             //mode: 'no-cors', // no-cors, *cors, same-origin
             headers: {
