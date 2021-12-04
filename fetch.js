@@ -11,7 +11,7 @@ const button = document.getElementById('button');
           {
             //mode: 'no-cors', // no-cors, *cors, same-origin
             headers: {
-              'Access-Control-Allow-Origin': 'http://127.0.0.1:5500' || window.location.href,
+              'Access-Control-Allow-Origin': '*' || window.location.href,
               'Content-Type': 'multipart/form-data',
             }
           }
