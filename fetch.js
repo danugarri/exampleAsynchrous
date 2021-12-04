@@ -29,7 +29,7 @@ const button = document.getElementById('button');
       }
  const handleClick =  () => {
    //Emulating asynchronous request
-    document.body.innerHTML = '<img style = "height :150px"  src ="./img/loading.jpg" alt ="loading"/>'
+    document.body.innerHTML = '    <div id= "loader"></div>'
     setTimeout(
      () => makeRequest(),3000
       )

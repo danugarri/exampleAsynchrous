@@ -1,0 +1,21 @@
+#loader {
+  width: 30px;
+  height: 30px;
+  background-color:grey;
+  border: 30px solid #f3f3f3;
+  margin:15% auto;
+  border-left: 30px solid red;
+  border-radius: 50%;
+  animation: spinIT 0.8s linear infinite;
+  filter: drop-shadow(0px 0px 8px gray)
+} 
+/*make it spin*/
+@keyframes spinIT {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+} 
+/*compatibility with wichever browser
+@-webkit-keyframes spinIT {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
