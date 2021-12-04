@@ -11,7 +11,7 @@ const button = document.getElementById('button');
           {
             //mode: 'no-cors', // no-cors, *cors, same-origin
             headers: {
-              'Access-Control-Allow-Origin': 'https://asynchronousexample.netlify.app' || window.location.href,
+              'Access-Control-Allow-Origin':  window.location.href,
               'Content-Type': 'multipart/form-data',
             }
           }
